@@ -9,11 +9,11 @@ window.onresize = function(event) {
     cm = window.outerWidth;
 };
 function execAction(){
-	if(lm != cm){
+  if(lm != cm){
    if(ld.getTime() < cd.getTime()){
     lm = window.outerWidth;
     cm = window.outerWidth;
-		console.log('execute');
+    //console.log('execute');
    }
   }
 
